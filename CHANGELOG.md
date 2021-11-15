@@ -4,16 +4,17 @@
 - Repository      : https://github.com/bedrock-viz/bedrock-viz/
 - Maintained by   : [jasper-wan](https://github.com/jasper-wan), [et al](https://github.com/orgs/bedrock-viz/people)
 - Contributions   : [Contributors](./CONTRIBUTORS.md)
-- Latest highlight: Some pithy summary here
+- Latest highlight: Trying to drink from the NBT change firehose
 - Latest release  : 0.1.6
 
 ## bedrock-viz changelog
 
-v0.1.6 - SomeDate
+v0.1.6 - 2021.11.14
 - Parser changes
   - support 0 length palette types in sub-chunks introduced with 1.17.30
   - reduce log noise related to data we don't actually use
   - fix crash when trying to output a player's reputation for a village
+  - fix crash when village dwellers don't have a position set in the database
 - Fixes in this release from:
   - [Desterly](https://github.com/Desterly)
 
